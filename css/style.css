@@ -85,6 +85,19 @@ body {
     margin-right: 15px;
 }
 
+.edu__list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.edu__list li:before {
+    content: "🔸";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
 .footer {
     border-top: 1px solid cadetblue;
     text-align: center;
